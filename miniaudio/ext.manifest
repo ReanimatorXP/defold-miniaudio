@@ -1,0 +1,11 @@
+name: "Miniaudio"
+platforms:
+    x86_64-win32:
+        context:
+            libs: ["Ole32"]
+    x86_64-osx:
+        context:
+            frameworks: ["CoreAudio", "AudioToolbox", "CoreFoundation", "Foundation"]
+    arm64-osx:
+        context:
+            frameworks: ["CoreAudio", "AudioToolbox", "CoreFoundation", "Foundation"]
